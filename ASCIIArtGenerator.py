@@ -188,7 +188,7 @@ class ASCIIArtGenerator:
         draw = ImageDraw.Draw(img)
 
         # Загрузка шрифта
-        font = ImageFont.truetype(font_path, font_size)
+        font = ImageFont.truetype(font_path, font_size*1.8)
 
         # Отрисовка ASCII-арт на изображении
         for i, line in enumerate(lines):
